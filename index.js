@@ -18,7 +18,7 @@ program
     }
 
     fs.mkdirSync(projectPath);
-    const templatePath = path.join(__dirname, "templete");
+    const templatePath = path.join(__dirname, "template");
 
     fs.copySync(templatePath, projectPath);
 
